@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discipulado - Anhelo Su Presencia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+    body{background:linear-gradient(135deg,#1a0b3c,#0b1f4d);color:#fff}
+    header{padding:80px 20px;text-align:center}
+    header h1{font-size:3rem;font-weight:700}
+    header p{margin-top:10px;font-size:1.2rem;opacity:.85}
+
+    .cta-top{margin-top:20px}
+
+    .container{max-width:1100px;margin:auto;padding:20px}
+
+    .card{
+      background:rgba(255,255,255,0.05);
+      backdrop-filter:blur(10px);
+      border-radius:20px;
+      padding:30px;
+      margin-top:30px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.3)
+    }
+
+    .levels{
+      display:grid;
+      grid-template-columns:repeat(3, 1fr);
+      gap:15px;
+      margin-top:20px
+    }
+
+    @media(max-width: 768px){
+      .levels{
+        grid-template-columns:repeat(2, 1fr);
+      }
+    }
+
+    @media(max-width: 480px){
+      .levels{
+        grid-template-columns:1fr;
+      }
+    }
+    .level{
+      background:linear-gradient(145deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+      padding:25px;
+      border-radius:18px;
+      text-align:center;
+      transition:all .35s ease;
+      border:1px solid rgba(255,255,255,0.08);
+      position:relative;
+      overflow:hidden;
+    }
+
+    .level::before{
+      content:"";
+      position:absolute;
+      top:0;
+      left:-100%;
+      width:100%;
+      height:100%;
+      background:linear-gradient(120deg, transparent, rgba(255,255,255,0.15), transparent);
+      transition:0.6s;
+    }
+
+    .level:hover::before{
+      left:100%;
+    }
+
+    .level:hover{
+      transform:translateY(-8px) scale(1.03);
+      box-shadow:0 15px 40px rgba(0,0,0,0.5);
+      border:1px solid rgba(255,255,255,0.2);
+    }
+
+    .benefits{margin-top:20px;line-height:1.8}
+
+    form{display:grid;gap:15px;margin-top:20px}
+    input,select{padding:12px;border:none;border-radius:10px}
+
+    .btn{
+      background:linear-gradient(90deg,#6a11cb,#2575fc);
+      border:none;
+      padding:15px;
+      border-radius:10px;
+      color:#fff;
+      font-weight:600;
+      cursor:pointer;
+      transition:.3s
+    }
+
+    .btn:hover{transform:scale(1.05)}
+
+    .btn-whatsapp{
+      background:#25D366;
+      margin-top:10px
+    }
+
+    .payment-options{margin-top:20px}
+
+    .testimonios{margin-top:20px;font-style:italic;opacity:.9}
+
+    footer{text-align:center;margin-top:40px;opacity:.6}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Transforma tu vida con Dios</h1>
+  <p>Inicia tu proceso de discipulado en Anhelo Su Presencia</p>
+
+  <div class="cta-top">
+    <button class="btn" onclick="document.getElementById('formulario').scrollIntoView()">Quiero inscribirme</button>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>✨ ¿Qué recibirás?</h2>
+    <div class="benefits">
+      ✔ Crecimiento espiritual real<br>
+      ✔ Dirección y propósito para tu vida<br>
+      ✔ Acompañamiento personalizado<br>
+      ✔ Formación paso a paso en 6 niveles
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>📚 6 Niveles de Formación</h2>
+    <div class="levels">
+      <div class="level">Nivel 1<br>Fundamentos</div>
+      <div class="level">Nivel 2<br>Jesús</div>
+      <div class="level">Nivel 3<br>Crecimiento</div>
+      <div class="level">Nivel 4<br>Relaciones</div>
+      <div class="level">Nivel 5<br>Libertad</div>
+      <div class="level">Nivel 6<br>Propósito</div>
+    </div>
+  </div>
+
+ 
+
+  <div class="card" id="formulario">
+    <h2>📝 Inscríbete ahora</h2>
+    <p>Empieza hoy tu transformación</p>
+
+    <iframe style="border:none;width:100%;" id="inscripcion-discipulado-2026-a-8vmnzp" src="https://noteforms.com/forms/inscripcion-discipulado-2026-a-8vmnzp"></iframe><script type="text/javascript" onload="initEmbed('inscripcion-discipulado-2026-a-8vmnzp', { autoResize: true })" src="https://noteforms.com/widgets/iframe.min.js"></script>
+
+   
+  </div>
+
+  <div class="card" >
+    <h2>💰 Compra tu cartilla</h2>
+    <p>Accede al material oficial del discipulado.</p>
+
+<br>
+    
+ <a href="https://checkout.bold.co/payment/LNK_U9ZRRFEGW8" class="btn">
+  Pagar Online
+</a> </center>
+
+<br>
+
+    <p style="margin-top:10px">También puedes pagar en efectivo en la iglesia</p>
+  </div>
+
+<br>
+<br>
+
+ <center> <a href="https://wa.me/+573014233922" class="btn">
+
+  Confirmar mi inscripción
+</a> <p style="margin-top:10px"> envía tu comrpobante de pago</p> </center>
+
+
+</div>
+
+
+
+
+<footer>
+  © 2026 Iglesia Anhelo Su Presencia
+</footer>
+
+</body>
+</html>
